@@ -1,0 +1,31 @@
+.centered {
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar{
+    padding: .5rem 2rem;
+}
+.col-sm {
+    margin: 1.5%;
+    padding: 0;
+    height: 40vh;
+}
+.lb-item {
+    height: 100%; width: 100%;
+    opacity: 0;
+    text-align: center;
+}
+.lb-item:hover {
+    background-color: rgba(47, 47, 47, 0.7);;
+    opacity: 1;
+    color: white;
+}
+.icons i {
+    font-size: 2rem;
+    padding: 0 1rem;
+}

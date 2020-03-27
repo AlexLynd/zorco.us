@@ -1,6 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
 }
 .centered {
     top: 50%;
@@ -14,7 +15,7 @@
 .navbar{
     padding: .5rem 2rem;
     font-weight: bold;
-    text-transform: uppercase;
+
 }
 .col-sm {
     margin: 1.5%;
@@ -34,5 +35,18 @@
 .icons i {
     font-size: 2rem;
     padding: 0 1rem;
-    font-weight: ;
+    color: black;
+}
+body#home {
+    background-image: url("img/test.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: #554f4f;
+}
+body#home .navbar {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+body#home .navbar a {
+    color: white !important;
 }

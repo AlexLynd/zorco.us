@@ -37,13 +37,7 @@
     padding: 0 1rem;
     color: black;
 }
-body#home {
-    background-image: url("img/test.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    background-color: #554f4f;
-}
+
 body#home .navbar {
     background-color: rgba(0, 0, 0, 0) !important;
 }
